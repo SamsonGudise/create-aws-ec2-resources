@@ -1,4 +1,4 @@
-variable "project_name" { default = "sarithm_sample" }
+variable "project_name" { default = "sarithm-sample" }
 variable "region" { default = "us-west-2" }
 variable "vpc_id" { }
 variable "domainname" { default = "dev.sarithm.com" }

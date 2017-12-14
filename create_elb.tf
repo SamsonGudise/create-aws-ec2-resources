@@ -17,7 +17,7 @@ resource  "aws_elb" "lb" {
 		instance_protocol = "http"
 		lb_port	 = 443
 		lb_protocol = "https"
-		ssl_certificate_id ="${lookup(var.ssl_cert,var.domainname)}"
+#		ssl_certificate_id ="${lookup(var.ssl_cert,var.domainname)}"
 	}
 	
 	health_check {
